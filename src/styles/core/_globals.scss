@@ -82,6 +82,15 @@ body {
   overflow-x: hidden;
 }
 
+.main {
+  min-height: 100vh;
+  position: relative;
+  background-image: url('/bg-pattern.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
